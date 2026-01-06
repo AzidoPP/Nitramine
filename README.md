@@ -1,6 +1,6 @@
 # Nitramine
 
-A lightweight DevTools snippet that injects a small floating panel to copy the **current** AP Classroom / Bluebook (Learnosity) question text—SPA-friendly and built for fast “copy & paste” workflows.
+A lightweight DevTools snippet that injects a small floating panel to copy the **current** AP Classroom question text—SPA-friendly and built for fast “copy & paste” workflows.
 
 It can also capture **two-column layouts** (left passage/feature + right question), and it avoids duplicated option text caused by accessibility-only DOM nodes.
 
@@ -16,8 +16,6 @@ It can also capture **two-column layouts** (left passage/feature + right questio
 - **Supports two-column layout**:
   - Copies **left passage/feature** (if present)
   - Copies **right question + answer choices**
-- **No duplicated answer choices**
-  - Filters out `.sr-only` accessibility duplicates commonly used by Learnosity/Bluebook
 - **Math + images support**
   - Prefers accessible labels (`aria-label`, `alttext`, `alt`) for MathJax and images
 
